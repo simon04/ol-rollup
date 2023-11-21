@@ -1,6 +1,7 @@
 import {Map, View} from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import XYZ from 'ol/source/XYZ';
+import {OSM} from 'ol/source';
 
 new Map({
   target: 'map',
